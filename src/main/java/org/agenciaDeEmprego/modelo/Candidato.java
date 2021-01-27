@@ -11,7 +11,7 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.context.WebApplicationContext;
 
 @Entity
-public class Candidato{
+public class Candidato extends Usuario{
 	@Id
 	private String cpf;
 	private String nome;

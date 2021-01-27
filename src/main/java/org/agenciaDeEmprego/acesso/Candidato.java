@@ -4,7 +4,7 @@ import javax.servlet.http.HttpSession;
 
 import org.agenciaDeEmprego.modelo.Usuario;
 
-public class Cliente implements Acesso {
+public class Candidato implements Acesso {
 	
 	@Override
 	public boolean autorizar(HttpSession sessao) {
