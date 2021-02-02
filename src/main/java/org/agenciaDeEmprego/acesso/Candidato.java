@@ -13,5 +13,4 @@ public class Candidato implements Acesso {
 		if(usuario != null && !usuario.getLogin().equals("admin")) return true;
 		return false;
 	}
-
 }
