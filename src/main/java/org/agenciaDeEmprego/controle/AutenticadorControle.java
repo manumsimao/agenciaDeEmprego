@@ -22,6 +22,7 @@ public class AutenticadorControle {
 	
 	@RequestMapping("login")
 	public String loginForm() {
+		//System.out.println("alo");
 		return "login";
 	}
 	
